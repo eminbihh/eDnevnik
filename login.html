@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+        <link rel="stylesheet" href="login.css">
+        <title>eDnevnik</title>
+    </head>
+    <body>
+        <div class="wrappers fadeInDown">
+            <div id="formContents">
+                <!-- Tabs Titles -->
+                <h1>Dobrodošli na eDnevnik učeniče!</h1>
+                <h2 class="active" id="loginBtn">Prijava korisnika</h2>
+
+                <!-- Login Form -->
+                <form action="index.html">
+                <input type="text" id="login" class="fadeIn second" placeholder="Ime">
+                <input type="password" id="password" class="fadeIn third" placeholder="Lozinka">
+                <input type="submit" class="fadeIn fourth" value="Prijavi se" id="submitBtn">
+                </form>
+            </div>
+        </div>
+        <script src="login.js"></script>
+    </body>
+</html>
